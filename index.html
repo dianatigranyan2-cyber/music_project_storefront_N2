@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b0f19" />
+    <meta name="description" content="Melo — музыка, друзья и общение в одном месте." data-i18n-attr="content:metaDescription" />
+    <title data-i18n="pageTitle">Melo — музыка ближе</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="i18n.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top"><span class="brand-mark">♫</span>Melo</a>
+      <nav><a href="#about" data-i18n="navAbout">О Melo</a><a href="#how" data-i18n="navHow">Как пользоваться</a><a href="#plans" data-i18n="navPlans">Тарифы</a></nav>
+      <div class="top-actions">
+        <a class="button button-small" href="https://music-project-blue-mu.vercel.app/"><span data-i18n="open">Открыть Melo</span> ↗</a>
+        <details class="language-switcher"><summary><span data-current-language>RU</span><span aria-hidden="true">⌄</span></summary><div class="language-options">
+          <button type="button" data-set-language="ru">Русский</button><button type="button" data-set-language="hy">Հայերեն</button><button type="button" data-set-language="en">English</button>
+        </div></details>
+      </div>
+    </header>
+    <main id="top">
+      <section class="hero">
+        <div><span class="eyebrow" data-i18n="eyebrow">Музыка и друзья — вместе</span><h1><span data-i18n="headline">Треки, которыми хочется</span> <em data-i18n="accent">делиться</em></h1>
+          <p data-i18n="lead">Слушайте музыку, находите любимые композиции и оставайтесь на связи с друзьями в Melo.</p>
+          <a class="button" href="https://music-project-blue-mu.vercel.app/"><span data-i18n="try">Попробовать Melo</span> →</a>
+        </div>
+        <div class="player-card"><span class="player-label" data-i18n="player">MELO PLAYER</span><div class="art">♫</div><b data-i18n="track">Музыка рядом</b><small data-i18n="trackSub">Слушайте и делитесь с друзьями</small><div class="play">◂◂　<span>▶</span>　▸▸</div></div>
+      </section>
+      <section class="features" id="about"><h2 data-i18n="about">Музыка становится ближе</h2><p data-i18n="aboutText">Melo объединяет музыкальную библиотеку и социальные функции — находите музыку и слушайте вместе с друзьями.</p>
+        <div class="cards"><article><i>♫</i><h3 data-i18n="feature1">Находите музыку</h3><p data-i18n="feature1Text">Ищите треки, исполнителей и подборки, сохраняйте любимое.</p></article><article><i>♡</i><h3 data-i18n="feature2">Делитесь впечатлениями</h3><p data-i18n="feature2Text">Отправляйте музыку друзьям и обсуждайте её в сообщениях.</p></article><article><i>◎</i><h3 data-i18n="feature3">Будьте на связи</h3><p data-i18n="feature3Text">Смотрите, что слушают друзья, и присоединяйтесь.</p></article></div>
+        <p class="license" data-i18n="license">Музыкальный каталог формируется из независимых источников. Условия использования указаны у отдельных треков.</p>
+      </section>
+      <section class="how" id="how"><div><span class="eyebrow" data-i18n="steps">Первые шаги</span><h2 data-i18n="start">Начать просто</h2></div><ol><li data-i18n="step1">Создайте профиль Melo и выберите настройки приватности.</li><li data-i18n="step2">Найдите треки через поиск или выберите музыкальную подборку.</li><li data-i18n="step3">Добавьте друзей, делитесь треками и общайтесь.</li><li data-i18n="step4">Сохраняйте песни и создавайте личные плейлисты.</li></ol></section>
+      <section class="plans" id="plans"><span class="eyebrow" data-i18n="access">Доступ и условия</span><h2 data-i18n="plansTitle">Тарифы Melo</h2><p data-i18n="plansIntro">Тарифная модель ещё обсуждается. Цены, лимиты и состав планов пока не утверждены.</p><div class="plan-grid"><article><small data-i18n="current">Текущий доступ</small><h3 data-i18n="test">Тестовая версия</h3><b data-i18n="free">Бесплатно на время тестирования</b><p data-i18n="testText">Знакомьтесь с Melo и помогайте улучшать сервис. Доступность функций может меняться.</p><a class="button" href="https://music-project-blue-mu.vercel.app/" data-i18n="open">Открыть Melo</a></article><article><small data-i18n="draft">Предварительный план</small><h3 data-i18n="other">Другие тарифы</h3><b data-i18n="later">Цена и условия уточняются</b><p data-i18n="laterText">Состав планов и стоимость ещё не утверждены. Обновления появятся здесь.</p></article></div><p class="disclaimer" data-i18n="disclaimer">Это информационный макет, а не предложение платной подписки. Актуальные условия будут опубликованы после утверждения.</p></section>
+      <footer><a class="brand" href="#top"><span class="brand-mark">♫</span>Melo</a><span data-i18n="footer">Музыка ближе, когда ею делятся.</span><a href="https://music-project-blue-mu.vercel.app/" data-i18n="open">Открыть Melo</a></footer>
+    </main>
+    <button class="support-launcher" id="support-launcher" type="button" aria-expanded="false" aria-controls="support-panel"><span aria-hidden="true">☏</span><span data-i18n="contact">Связаться с нами</span></button>
+    <section class="support-panel" id="support-panel" aria-label="Чат поддержки" data-i18n-attr="aria-label:supportAria" hidden>
+      <header class="support-header"><div><b data-i18n="supportTitle">Поддержка Melo</b><small data-i18n="supportSubtitle">Напишите нам — ответим здесь</small></div><button type="button" id="support-close" aria-label="Закрыть" data-i18n-attr="aria-label:close">×</button></header>
+      <div class="support-messages" id="support-messages" aria-live="polite"></div>
+      <form class="support-composer" id="support-form"><textarea name="message" rows="2" maxlength="2000" required data-i18n-placeholder="messagePlaceholder" placeholder="Напишите сообщение…" aria-label="Сообщение" data-i18n-attr="aria-label:messageLabel"></textarea><button type="submit" data-i18n="send">Отправить</button></form>
+      <p class="support-status" id="support-status" role="status"></p>
+    </section>
+    <script src="support.js" defer></script>
+  </body>
+</html>
